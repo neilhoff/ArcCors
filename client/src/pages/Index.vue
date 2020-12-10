@@ -32,7 +32,7 @@ export default {
       try {
         console.log('Get')
         const response = await this.$axios.get(this.api)
-        console.log('yah')
+        console.log('Success!')
         this.results = response
       } finally {
         this.$q.loading.hide()
@@ -43,7 +43,7 @@ export default {
       try {
         console.log('Post')
         const response = await this.$axios.post(this.api)
-        console.log('yah')
+        console.log('Success!')
         this.results = response
       } finally {
         this.$q.loading.hide()
