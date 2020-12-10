@@ -19,7 +19,7 @@ They will both fail
 
 Open the file `/node_modules/@architect/sandbox/src/http/middleware/_cors.js`
 
-Add this after line 12: `else next()`
+Add this after line 11: `else next()`
 
 The file will now look like this:
 
