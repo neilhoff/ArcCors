@@ -1,0 +1,18 @@
+{
+  "name": "arccors",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "npm-run-all": "^4.1.5",
+    "@architect/architect": "8.3.7"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "npm-run-all --parallel dev:*",
+    "dev:startClient": "cd client && quasar dev",
+    "dev:startServer": "arc sandbox"
+  },
+  "author": "",
+  "license": "ISC"
+}
