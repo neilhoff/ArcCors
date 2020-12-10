@@ -6,8 +6,8 @@
 
 ### Run the Servers
 
-1. From the `root` run `npm start`
-  - This will kick off the Quasar web server at localhost:8080 and the Architect Sandbox at localhost:3333
+- From the `root` run `npm start`
+    - This will kick off the Quasar web server at localhost:8080 and the Architect Sandbox at localhost:3333
 
 ### Test CORS
 
