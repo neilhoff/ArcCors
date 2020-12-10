@@ -23,10 +23,9 @@ Add this after line 12: `else next()`
 
 The file will now look like this:
 
-```
+```node
 
 module.exports = function handleCors (req, res, next) {
-  console.log(req.method)
   if (process.env.ARC_SANDBOX_ENABLE_CORS) {
     res.setHeader('access-control-allow-origin', '*')
     res.setHeader('access-control-request-method', '*')
@@ -43,3 +42,5 @@ module.exports = function handleCors (req, res, next) {
 }
 
 ```
+
+Restart the servers
